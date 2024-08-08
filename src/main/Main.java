@@ -2,6 +2,12 @@ package main;
 
 import JavaInheritance.*;
 import JavaGenerics.*;
+/* 
+ * import are not present in the compile code,
+ *  an import statement has no effect at runtime efficiency of the class
+ * It is a simple convenience to avoid prefixing
+ * class name with package name throughout your source code.
+ */
 
 public class Main {
     
@@ -12,7 +18,7 @@ public class Main {
         SortDifferentData sorted = new SortDifferentData();
         InnerSortDifferentDataDisplay result = new InnerSortDifferentDataDisplay();    
         sorted.sortDifferentData(str_chars);
-        result.innerSortDifferentDataDisplay(str_chars);
+        result.innerSortDifferentDataDisplay(str_chars );
     }
 }
 
