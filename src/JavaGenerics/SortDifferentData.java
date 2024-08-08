@@ -16,9 +16,6 @@ public class SortDifferentData {
                 }
             }
         }
-//        for (T element : arr) {
-//            result.add(element);
-//        }
         Collections.addAll(result, arr);
         return result;
     }
